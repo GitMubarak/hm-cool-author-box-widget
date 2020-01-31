@@ -3,8 +3,8 @@ Contributors: mhmrajib, ali_siddique
 Donate link: https://www.paypal.me/mhmrajib/2
 Tags: Author, author box, author info, author profile, author social icons, profile, author bio, author description, user profile
 Requires at least: 3.9
-Tested up to: 5.2.3
-Stable tag: 2.4
+Tested up to: 5.3.2
+Stable tag: 2.5
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

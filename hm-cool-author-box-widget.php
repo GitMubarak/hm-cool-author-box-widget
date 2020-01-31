@@ -3,7 +3,7 @@
  * Plugin Name: 	HM - Cool Author Box
  * Plugin URI:		https://wordpress.org/plugins/hm-cool-author-box-widget/
  * Description: 	This plugin display an author box to your theme sidebar/widget area or Post/Page section.
- * Version: 		2.4
+ * Version: 		2.5
  * Author: 			Hossni Mubarak
  * Author URI: 		http://www.hossnimubarak.com
  * Text Domain: 	wp-cool-author-box
