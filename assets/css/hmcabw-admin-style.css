@@ -1,0 +1,102 @@
+/* Alert Styles Started */
+
+.hmcabw-alert {
+    padding: 20px!important;
+    color: white;
+}
+
+.hmcabw-alert.success {
+    background-color: #6ABD6E;
+}
+
+.hmcabw-alert.error {
+    background-color: #F66358;
+}
+
+.hmcabw-alert.warning {
+    background-color: #FFAA2B;
+}
+
+.hmcabw-alert.info {
+    background-color: #47A8F5;
+}
+
+.hmcabw-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hmcabw-closebtn:hover {
+    color: black;
+}
+
+
+/* Alert Styles Ended */
+
+div#hmcabw-preview-image {
+    display: block;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    min-height: 150px;
+    background-image: url("../img/noimage.jpg");
+    background-size: cover;
+}
+
+div#hmcabw-preview-image img#hmcabw-preview-image {
+    width: 100%;
+}
+
+table#table-admin-social-id tr th,
+table#table-admin-social-id tr td {
+    height: 20px;
+    border: 0px solid #000;
+    padding: 8px 10px;
+    background: #EAEAEA;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+table#table-admin-social-id tr td input {
+    padding: 5px;
+}
+
+
+/* template selector section */
+
+.hmcabw-template-selector {
+    border: 0px solid #000;
+    max-width: 720px;
+}
+
+.hmcabw-template-item {
+    border: 0px solid #000;
+    min-height: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.hmcabw-template-item input[type='radio'] {
+    vertical-align: top;
+}
+
+.hmcabw-template-selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hmcabw-template-item label {
+    margin-left: 5px;
+}

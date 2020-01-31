@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hm-cool-author-box-widget\n"
+"POT-Creation-Date: 2019-10-07 20:48+0600\n"
+"PO-Revision-Date: 2019-10-07 20:49+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ../admin\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_attr__;esc_html_e;esc_attr_e;esc_html\n"
+"X-Poedit-SearchPath-0: cls-hmcab-admin.php\n"
+"X-Poedit-SearchPath-1: view/hmcabw-general-settings.php\n"
+"X-Poedit-SearchPath-2: view/hmcabw-social-settings.php\n"
+"X-Poedit-SearchPath-3: view/hmcabw-template-settings.php\n"
+"X-Poedit-SearchPath-4: .\n"
+
+#: cls-hmcab-admin.php:21 cls-hmcab-admin.php:22
+msgid "HM Author Box"
+msgstr "এইচ এম লেখক বক্স"
+
+#: cls-hmcab-admin.php:31 cls-hmcab-admin.php:32
+msgid "Information Settings"
+msgstr "তথ্য সেটিংস"
+
+#: cls-hmcab-admin.php:39 cls-hmcab-admin.php:40
+msgid "Social Settings"
+msgstr "সামাজিক সেটিংস"
+
+#: cls-hmcab-admin.php:47 cls-hmcab-admin.php:48
+msgid "Template Settings"
+msgstr "টেমপ্লেট সেটিংস"
+
+#: view/hmcabw-general-settings.php:25
+msgid "Author Box General Settings"
+msgstr "লেখক বাক্স সাধারণ সেটিংস"
+
+#: view/hmcabw-general-settings.php:33
+msgid "Name:"
+msgstr "নামঃ"
+
+#: view/hmcabw-general-settings.php:38
+msgid "Keep null to display profile Display Name"
+msgstr "প্রোফাইল প্রদর্শনের নাম প্রদর্শন করতে নাল রাখুন"
+
+#: view/hmcabw-general-settings.php:44
+msgid "Title:"
+msgstr "শিরোনামঃ"
+
+#: view/hmcabw-general-settings.php:52
+msgid "Email:"
+msgstr "ইমেইল:"
+
+#: view/hmcabw-general-settings.php:57
+msgid "Keep null to display profile Email"
+msgstr "প্রোফাইল ইমেল প্রদর্শন করতে নাল রাখুন"
+
+#: view/hmcabw-general-settings.php:62
+msgid "Website:"
+msgstr "ওয়েভসাইট"
+
+#: view/hmcabw-general-settings.php:67
+msgid "Keep null to display profile Website"
+msgstr "প্রোফাইল ওয়েভসাইট প্রদর্শন করতে নাল রাখুন"
+
+#: view/hmcabw-general-settings.php:72
+msgid "Biographical Info"
+msgstr "জীবনীসংক্রান্ত তথ্য"
+
+#: view/hmcabw-general-settings.php:84
+msgid "Keep null to display profile Biographical Info"
+msgstr "প্রোফাইল জীবনীসংক্রান্ত তথ্য প্রদর্শন করতে নাল রাখুন"
+
+#: view/hmcabw-general-settings.php:89
+msgid "Biographical Info Font Size:"
+msgstr "জীবনীসংক্রান্ত তথ্য ফন্ট সাইজ"
+
+#: view/hmcabw-general-settings.php:97
+msgid "Author Image?"
+msgstr "লেখকের ছবি"
+
+#: view/hmcabw-general-settings.php:101
+msgid "Gravatar"
+msgstr "গ্রাভাটার"
+
+#: view/hmcabw-general-settings.php:104
+msgid "Upload Image"
+msgstr "ছবি আপলোড"
+
+#: view/hmcabw-general-settings.php:109
+msgid "Upload Image:"
+msgstr "ছবি আপলোড"
+
+#: view/hmcabw-general-settings.php:126
+msgid "Update General Settings"
+msgstr "সাধারণ সেটিংস আপডেট"
+
+#: view/hmcabw-social-settings.php:21
+msgid "Author Box Social Settings"
+msgstr "লেখক বাক্স সামাজিক সেটিংস"
+
+#: view/hmcabw-social-settings.php:34
+#, php-format
+msgid "Show %s?"
+msgstr "দেখান"
+
+#: view/hmcabw-social-settings.php:42
+#, php-format
+msgid "%s Url:"
+msgstr "লিঙ্ক"
+
+#: view/hmcabw-social-settings.php:51
+msgid "Update Social Settings"
+msgstr "সামাজিক সেটিংস আপডেট"
+
+#: view/hmcabw-template-settings.php:26
+msgid "Author Box Template Settings"
+msgstr "লেখক বাক্স টেমপ্লেট সেটিংস"
+
+#: view/hmcabw-template-settings.php:34
+msgid "Select a Template:"
+msgstr "টেমপ্লেট পছন্দ করুন"
+
+#: view/hmcabw-template-settings.php:51
+msgid "Show In Post/Page?"
+msgstr "পস্ট/পেজে দেখাতে চান?"
+
+#: view/hmcabw-template-settings.php:59
+msgid "Where to Display?"
+msgstr "কোথায় দেখাতে চান?"
+
+#: view/hmcabw-template-settings.php:63
+msgid "Top of Content"
+msgstr "কন্টেন্টের উপরে"
+
+#: view/hmcabw-template-settings.php:66
+msgid "Bottom of Content"
+msgstr "কন্টেন্টের নীচে"
+
+#: view/hmcabw-template-settings.php:71
+msgid "Display Title?"
+msgstr "শিরোনাম দেখাতে চান?"
+
+#: view/hmcabw-template-settings.php:79
+msgid "Display Email?"
+msgstr "ইমেইল দেখাতে চান?"
+
+#: view/hmcabw-template-settings.php:87
+msgid "Display Website?"
+msgstr "ওয়েভসাইট দেখাতে চান"
+
+#: view/hmcabw-template-settings.php:95
+msgid "Photo/Icon Shape"
+msgstr "ঞ্ছবির আকৃতি"
+
+#: view/hmcabw-template-settings.php:99
+msgid "Square"
+msgstr "স্কয়ার"
+
+#: view/hmcabw-template-settings.php:102
+msgid "Rounded"
+msgstr "রাউন্ডেড"
+
+#: view/hmcabw-template-settings.php:105
+msgid "Circle"
+msgstr "সারকেল"
+
+#: view/hmcabw-template-settings.php:110
+msgid "Photo/Gravatar Width"
+msgstr "ছবি প্রস্থ"
+
+#: view/hmcabw-template-settings.php:114
+msgid "px"
+msgstr ""
+
+#: view/hmcabw-template-settings.php:118
+msgid "Update Template Settings"
+msgstr "টেমপ্লেট সেটিংস আপডেট"

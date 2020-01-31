@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-03 14:27+0600\n"
+"PO-Revision-Date: 2019-07-03 17:22+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/cls-share-a-friend-admin.php:24 admin/cls-share-a-friend-admin.php:25
+#: admin/cls-share-a-friend-admin.php:117 inc/cls-share-a-friend-master.php:77
+msgid "Share A Friend"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:34
+msgid "Request"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:35
+msgid "Captured Leads"
+msgstr "Gevangen leads"
+
+#: admin/cls-share-a-friend-admin.php:42 admin/cls-share-a-friend-admin.php:43
+msgid "General Setting"
+msgstr "Algemene instelling"
+
+#: admin/cls-share-a-friend-admin.php:50 admin/cls-share-a-friend-admin.php:51
+msgid "Template Selection"
+msgstr "Sjabloon selectie"
+
+#: admin/cls-share-a-friend-admin.php:58
+msgid "Email Setting"
+msgstr "Email instelling"
+
+#: admin/cls-share-a-friend-admin.php:59
+msgid "Notification Setup"
+msgstr "Melding instellen"
+
+#: admin/cls-share-a-friend-admin.php:85
+msgid "Are you sure you want to delete this item?"
+msgstr "Weet je zeker dat je dit item wilt verwijderen?"
+
+#: admin/cls-share-a-friend-admin.php:94
+msgid "Select All"
+msgstr "Selecteer alles"
+
+#: admin/cls-share-a-friend-admin.php:95
+msgid "Submitter Email"
+msgstr "Indiener e-mail"
+
+#: admin/cls-share-a-friend-admin.php:96
+msgid "Submit Date"
+msgstr "Datum verzenden"
+
+#: admin/cls-share-a-friend-admin.php:97
+msgid "Action"
+msgstr "Actie"
+
+#: admin/cls-share-a-friend-admin.php:118 inc/cls-share-a-friend-master.php:78
+msgid "Are You Or Have a Friend Who Like to Watch Movie a Lot?"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:119 inc/cls-share-a-friend-master.php:79
+msgid ""
+"We are having some bunch of offers & exciting surprises. Anonymously off "
+"course"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:120
+#: admin/view/saf-front-view-preview.php:17
+#: inc/cls-share-a-friend-master.php:80
+msgid "friend@example.com, friend2@example.com"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:121
+#: admin/view/saf-front-view-preview.php:18
+#: inc/cls-share-a-friend-master.php:81
+msgid "SUBMIT"
+msgstr "voorleggen"
+
+#: admin/cls-share-a-friend-admin.php:122
+#: admin/view/saf-front-view-preview.php:19
+#: inc/cls-share-a-friend-master.php:82
+msgid "persons have been emailed today"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:123
+#: admin/view/saf-front-view-preview.php:24
+#: inc/cls-share-a-friend-master.php:83
+msgid "Facebook"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:124
+#: admin/view/saf-front-view-preview.php:25
+#: inc/cls-share-a-friend-master.php:84
+msgid "Twitter"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:125 inc/cls-share-a-friend-master.php:85
+msgid "<strong>Done!</strong> Anyone else?"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:126
+msgid "Custom HTML (promotional content)"
+msgstr ""
+
+#: admin/cls-share-a-friend-admin.php:207
+msgid "Please select submitter name(s) to change the status"
+msgstr "Selecteer de naam van de indiener (s) om de status te wijzigen"
+
+#: admin/cls-share-a-friend-admin.php:210
+msgid "Please choose action to apply"
+msgstr "Kies actie om toe te passen"
+
+#: admin/view/saf-check-request.php:24
+msgid "List Of Your Captured Leads"
+msgstr "Lijst met uw capture-leads"
+
+#: admin/view/saf-check-request.php:28
+msgid "BULK ACTION"
+msgstr "BULK ACTIE"
+
+#: admin/view/saf-check-request.php:29
+msgid "Delete"
+msgstr "Verwijder"
+
+#: admin/view/saf-check-request.php:31
+msgid "Apply"
+msgstr "Van toepassing zijn"
+
+#: admin/view/saf-check-request.php:53
+msgid "DELETE"
+msgstr "verwijderen"
+
+#: admin/view/saf-check-request.php:64
+msgid "EXPORT TO CSV"
+msgstr "EXPORT NAAR CSV"
+
+#: admin/view/saf-check-request.php:68
+msgid "FILTER EMAIL ADDRESSES"
+msgstr "ADRESSEN FILTEREN E-MAIL"
+
+#: admin/view/saf-form-settings.php:23
+msgid "Setup Your Text Capture Formula"
+msgstr "Stel uw tekstopnameformule in"
+
+#: admin/view/saf-form-settings.php:31
+msgid "Title To Capture Lead:"
+msgstr "Titel van Capture Lead:"
+
+#: admin/view/saf-form-settings.php:40
+msgid "Target Text for Leads:"
+msgstr "Doeltekst voor leads:"
+
+#: admin/view/saf-form-settings.php:49
+msgid "Tag Line For Leads:"
+msgstr "Tag voor leads:"
+
+#: admin/view/saf-form-settings.php:57
+msgid "Email Placeholder text:"
+msgstr "Plaatsaanduiding voor e-mail:"
+
+#: admin/view/saf-form-settings.php:65
+msgid "Submit Button Text:"
+msgstr "Knoptekst verzenden:"
+
+#: admin/view/saf-form-settings.php:73
+msgid "Email Counter Text:"
+msgstr "Email Counter Text:"
+
+#: admin/view/saf-form-settings.php:78
+msgid "text will be added after 'number'"
+msgstr "tekst wordt toegevoegd na ‘nummer’"
+
+#: admin/view/saf-form-settings.php:83
+msgid "Facebook Button Text:"
+msgstr "Facebookknoptekst:"
+
+#: admin/view/saf-form-settings.php:91
+msgid "Twitter Button Text:"
+msgstr "Twitterknoptekst:"
+
+#: admin/view/saf-form-settings.php:99
+msgid "Success Message Text:"
+msgstr "Succesberichttekst:"
+
+#: admin/view/saf-form-settings.php:104
+msgid "Accept '<html>'"
+msgstr "Accepteer '<html>'"
+
+#: admin/view/saf-form-settings.php:109
+msgid "Promotional Content (Ad Area):"
+msgstr "Promotie-inhoud (Advertentieruimte):"
+
+#: admin/view/saf-form-settings.php:117
+msgid "Keep blank if you do not have promotional ad"
+msgstr "Blijf leeg als u geen promotie-advertentie heeft"
+
+#: admin/view/saf-form-settings.php:121
+#: admin/view/saf-submitter-settings.php:56
+#: admin/view/saf-template-settings.php:90
+msgid "Update Settings"
+msgstr "Update-instellingen"
+
+#: admin/view/saf-submitter-settings.php:18
+msgid "Notification Email Setup"
+msgstr "E-mailinstellingen voor meldingen"
+
+#: admin/view/saf-submitter-settings.php:26
+msgid "Subject Line:"
+msgstr "Onderwerpregel:"
+
+#: admin/view/saf-submitter-settings.php:34
+msgid "Message:"
+msgstr "Bericht:"
+
+#: admin/view/saf-submitter-settings.php:47
+msgid "Admin Notification Email"
+msgstr "E-mailadres voor beheerdersmeldingen"
+
+#: admin/view/saf-submitter-settings.php:52
+msgid "Keep blank to use admin email"
+msgstr "Blijf leeg om admin-e-mail te gebruiken"
+
+#: admin/view/saf-template-settings.php:18
+msgid "Design Settings for Lead Capture"
+msgstr "Ontwerpinstellingen voor Lead Capture"
+
+#: admin/view/saf-template-settings.php:26
+msgid "Select a Template:"
+msgstr "Selecteer een sjabloon:"
+
+#: admin/view/saf-template-settings.php:43
+msgid "Customize This Template?"
+msgstr "Deze sjabloon aanpassen?"
+
+#: admin/view/saf-template-settings.php:55
+msgid "Form Header Bg Color:"
+msgstr "Formulierkop Bg Kleur:"
+
+#: admin/view/saf-template-settings.php:60
+msgid "Form Header Font Color:"
+msgstr "Tekstkleur koptekst formulier:"
+
+#: admin/view/saf-template-settings.php:65
+msgid "Submit Button Color:"
+msgstr "Knopkleur verzenden:"
+
+#: admin/view/saf-template-settings.php:75
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: admin/view/saf-template-settings.php:83
+msgid "Shortcode"
+msgstr ""
+
+#: front/cls-share-a-friend-front.php:49
+msgid "Your"
+msgstr "Jouw"
+
+#: front/cls-share-a-friend-front.php:50
+msgid "Email Address(es) already exist."
+msgstr "E-mailadres (sen) bestaan al"
+
+#: front/cls-share-a-friend-front.php:51
+msgid "Email Address(es) are not valid."
+msgstr "E-mailadres (sen) zijn niet geldig."
+
+#: front/cls-share-a-friend-front.php:54
+msgid "yes"
+msgstr ""
+
+#: front/cls-share-a-friend-front.php:55
+msgid "Social Share"
+msgstr "Sociaal aandeel"
+
+#: front/cls-share-a-friend-front.php:137
+msgid "You have been tagged to have some offers and exciting surprises"
+msgstr ""
+
+#: front/view/saf-front-view.php:41
+msgid "Sorry!"
+msgstr ""
+
+#: front/view/saf-front-view.php:41
+msgid "Something Wrong with Your Email Submission"
+msgstr "Er is iets mis met uw e-mailinzending"
+
+#: inc/cls-share-a-friend-master.php:86
+msgid "Promotional Content (Ad Area)"
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:91
+msgid "You have been tagged to have some offers and exciting surprises."
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:103
+msgid "Hi there,"
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:105
+msgid ""
+"We are happy to know that you like to watch movie so much and here we are to "
+"offer some exciting surprises for you."
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:107
+msgid "I believe you will be happy to get an easy deal.. are you?"
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:109
+msgid ""
+"Just let me know which category you are mostly interested ? Is it difficult "
+"for you?"
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:110
+msgid ""
+"Tag someone else you know who also like to watch movies a lot. And let us "
+"know here."
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:111
+msgid ""
+"And collect 2 free tickets in our Golden Cinema Screens for any 3D movie."
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:112
+msgid ""
+"If you absolutely like our offer, just refer few more friends as well from "
+"our page here."
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:115
+msgid "Hope You can enjoy journey with us to get more offers !!"
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:117
+msgid "You received this email because you are mentioned from"
+msgstr ""
+
+#: inc/cls-share-a-friend-master.php:117
+msgid "our site"
+msgstr ""

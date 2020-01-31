@@ -1,0 +1,351 @@
+    .hmcabw-main-wrapper {
+        border: 1px solid #1E90FF;
+        box-shadow: 0 3px 20px #1E90FF;
+        margin: 20px 0;
+        background: #cde7f4;
+        padding: 5px!important;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container {
+        border: 0px solid #000;
+        width: 100%;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 80px;
+        margin: 0;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container {
+        min-width: 50px;
+        border: 0px solid #009900;
+        min-height: 80px;
+        margin-right: 5px;
+        padding: 5px 0 0 5px;
+        text-align: center;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container img {
+        height: auto;
+        margin: 5px auto 0;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container.square img {
+        border-radius: 0px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container.rounded img {
+        border-radius: 15px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container.circle img {
+        border-radius: 80px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container {
+        flex: 1;
+        border: 0px solid #FF0000;
+        min-height: 80px;
+        padding: 5px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container h3.hmcabw-name {
+        border: 0px solid #000;
+        margin: 0;
+        margin-top: 2px;
+        padding: 0;
+        font-size: 24px;
+        line-height: 30px;
+        font-family: Trebuchet MS;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container p.hmcabw-title {
+        border: 0px solid #000;
+        margin: 0 0 8px 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 600;
+        color: #242424;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container p.hmcabw-bio-info {
+        border: 0px solid #000;
+        margin: 5px 0;
+        padding: 0;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container p {
+        border: 0px solid #000;
+        margin: 5px 0;
+        padding: 0;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-email-url-container {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        padding-left: 5px;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        border: 0px solid #000;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-email-url-container>div {
+        text-align: center;
+        padding-right: 5px;
+        line-height: 40px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-email-url-container>div p.hmcabw-email {
+        border: 0px solid #000;
+        margin: 0;
+        padding: 0;
+        line-height: 16px;
+        font-size: 12px;
+        color: #BB8E8E;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-email-url-container>div a.hmcabw-website {
+        border: 0px solid #000;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-decoration: none;
+        line-height: 16px;
+        font-size: 12px;
+        color: #BB8E8E;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper .hmcabw-email-url-container>div a.hmcabw-website>span {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0;
+        padding: 0;
+        border: 0px solid #000;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-social-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #1E90FF;
+        border: 0px solid #000;
+        text-align: center;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-social-container>div {
+        background-color: #f1f1f1;
+        width: 45px;
+        margin: 5px;
+        text-align: center;
+        line-height: 0px;
+        padding: 8px 0px;
+        font-size: 30px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-social-container>div.rounded {
+        border-radius: 10px;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-social-container>div.circle {
+        border-radius: 50px;
+    }
+    /*=========================
+    temp_1
+    ==========================*/
+    
+    .hmcabw-main-wrapper.temp_1 {
+        border: 1px solid #00BFFF;
+        box-shadow: 0 3px 20px #00BFFF;
+        background: #E0FFFF;
+    }
+    
+    .hmcabw-main-wrapper.temp_1 .hmcabw-parent-container .hmcabw-info-container h3 {
+        color: #4682B4;
+    }
+    
+    .hmcabw-main-wrapper.temp_1 .hmcabw-email-url-container>div p.hmcabw-email,
+    .hmcabw-main-wrapper.temp_1 .hmcabw-email-url-container>div a.hmcabw-website,
+    .hmcabw-main-wrapper.temp_1 .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper.temp_1 .hmcabw-email-url-container>div a.hmcabw-website>span {
+        color: #4682B4;
+    }
+    
+    .hmcabw-main-wrapper.temp_1 div.hmcabw-social-container {
+        background: #00BFFF;
+    }
+    
+    .hmcabw-main-wrapper.temp_1 div.hmcabw-social-container>div {
+        background: #4682B4;
+    }
+    /*=========================
+    temp_2
+    ==========================*/
+    
+    .hmcabw-main-wrapper.temp_2 {
+        border: 1px solid #DEB887;
+        box-shadow: 0 3px 20px #DEB887;
+        background: #FFF8DC;
+    }
+    
+    .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container h3 {
+        color: #BC8F8F;
+    }
+    
+    .hmcabw-main-wrapper.temp_2 .hmcabw-email-url-container>div p.hmcabw-email,
+    .hmcabw-main-wrapper.temp_2 .hmcabw-email-url-container>div a.hmcabw-website,
+    .hmcabw-main-wrapper.temp_2 .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper.temp_2 .hmcabw-email-url-container>div a.hmcabw-website>span {
+        color: #BC8F8F;
+    }
+    
+    .hmcabw-main-wrapper.temp_2 div.hmcabw-social-container {
+        background: #DEB887;
+    }
+    
+    .hmcabw-main-wrapper.temp_2 div.hmcabw-social-container>div {
+        background: #BC8F8F;
+    }
+    /*=========================
+    temp_3
+    ==========================*/
+    
+    .hmcabw-main-wrapper.temp_3 {
+        border: 1px solid #999;
+        box-shadow: 0 3px 20px #555555;
+        background: #F2F2F2;
+    }
+    
+    .hmcabw-main-wrapper.temp_3 .hmcabw-parent-container .hmcabw-info-container h3 {
+        color: #242424;
+    }
+    
+    .hmcabw-main-wrapper.temp_3 .hmcabw-email-url-container>div p.hmcabw-email,
+    .hmcabw-main-wrapper.temp_3 .hmcabw-email-url-container>div a.hmcabw-website,
+    .hmcabw-main-wrapper.temp_3 .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper.temp_3 .hmcabw-email-url-container>div a.hmcabw-website>span {
+        color: #242424;
+    }
+    
+    .hmcabw-main-wrapper.temp_3 div.hmcabw-social-container {
+        background: #555555;
+    }
+    
+    .hmcabw-main-wrapper.temp_3 div.hmcabw-social-container>div {
+        background: #242424;
+    }
+    /*=========================
+    temp_4
+    ==========================*/
+    
+    .hmcabw-main-wrapper.temp_4 {
+        border: 1px solid #9932CC;
+        box-shadow: 0 3px 20px #9932CC;
+        background: #FFE4E1;
+    }
+    
+    .hmcabw-main-wrapper.temp_4 .hmcabw-parent-container .hmcabw-info-container h3 {
+        color: #663399;
+    }
+    
+    .hmcabw-main-wrapper.temp_4 .hmcabw-email-url-container>div p.hmcabw-email,
+    .hmcabw-main-wrapper.temp_4 .hmcabw-email-url-container>div a.hmcabw-website,
+    .hmcabw-main-wrapper.temp_4 .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper.temp_4 .hmcabw-email-url-container>div a.hmcabw-website>span {
+        color: #663399;
+    }
+    
+    .hmcabw-main-wrapper.temp_4 div.hmcabw-social-container {
+        background: #9932CC;
+    }
+    
+    .hmcabw-main-wrapper.temp_4 div.hmcabw-social-container>div {
+        background: #663399;
+    }
+    /*=========================
+    temp_5
+    ==========================*/
+    
+    .hmcabw-main-wrapper.temp_5 {
+        border: 1px solid #B22222;
+        box-shadow: 0 3px 20px #B22222;
+        background: #FFE4E1;
+    }
+    
+    .hmcabw-main-wrapper.temp_5 .hmcabw-parent-container .hmcabw-info-container h3 {
+        color: #8B0000;
+    }
+    
+    .hmcabw-main-wrapper.temp_5 .hmcabw-email-url-container>div p.hmcabw-email,
+    .hmcabw-main-wrapper.temp_5 .hmcabw-email-url-container>div a.hmcabw-website,
+    .hmcabw-main-wrapper.temp_5 .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper.temp_5 .hmcabw-email-url-container>div a.hmcabw-website>span {
+        color: #8B0000;
+    }
+    
+    .hmcabw-main-wrapper.temp_5 div.hmcabw-social-container {
+        background: #B22222;
+    }
+    
+    .hmcabw-main-wrapper.temp_5 div.hmcabw-social-container>div {
+        background: #8B0000;
+    }
+    /*=========================
+    temp_6
+    ==========================*/
+    
+    .hmcabw-main-wrapper.temp_6 {
+        border: 1px solid #20B2AA;
+        box-shadow: 0 3px 20px #20B2AA;
+        background: #F0FFF0;
+    }
+    
+    .hmcabw-main-wrapper.temp_6 .hmcabw-parent-container .hmcabw-info-container h3 {
+        color: #008B8B;
+    }
+    
+    .hmcabw-main-wrapper.temp_6 .hmcabw-email-url-container>div p.hmcabw-email,
+    .hmcabw-main-wrapper.temp_6 .hmcabw-email-url-container>div a.hmcabw-website,
+    .hmcabw-main-wrapper.temp_6 .hmcabw-email-url-container>div p.hmcabw-email>span,
+    .hmcabw-main-wrapper.temp_6 .hmcabw-email-url-container>div a.hmcabw-website>span {
+        color: #008B8B;
+    }
+    
+    .hmcabw-main-wrapper.temp_6 div.hmcabw-social-container {
+        background: #20B2AA;
+    }
+    
+    .hmcabw-main-wrapper.temp_6 div.hmcabw-social-container>div {
+        background: #008B8B;
+    }
+    /*======================================
+    *
+    ======================================*/
+    
+    @media(max-width:600px) {
+        .hmcabw-main-wrapper .hmcabw-parent-container {
+            display: block;
+        }
+        .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container {
+            width: 100%;
+            text-align: center;
+        }
+        .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-image-container img {
+            width: 150px;
+        }
+        .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container {
+            text-align: center;
+        }
+    }
