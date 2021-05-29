@@ -1,11 +1,11 @@
 === HM - Cool Author Box ===
 Contributors: mhmrajib, ali_siddique
 Donate link: https://www.paypal.me/mhmrajib/2
-Tags: Author, author box, author info, author profile, author social icons, profile, author bio, author description, user profile
-Requires at least: 3.9
-Tested up to: 5.3.2
+Tags: Author, Author Box, Profile Fields, Author Profile Fields, Author Social Icons
+Requires at least: 4.6
+Tested up to: 5.4.1
 Stable tag: 2.5
-Requires PHP: 5.6
+Requires PHP: 5.7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,11 +15,12 @@ Add an author box to your theme sidebar/widget area, with your avatar, name, ema
 
 [HM - Cool Author Box](http://www.hossnimubarak.com) display an author box to your theme sidebar/widget area or in Post/Page with Social media links. User can use their profile info or they can put other info in this plugin. 6 eyecatching templates let the user to choose according to their theme. 12 common social links help user to connect with more people.
 
-**Plugin Features:**
+
+**🌟 Plugin Features:**
 
 * Easy to install
 * Fully integrated in WordPress
-* Compatible with WordPress 3.9 and PHP 5.6
+* Compatible with WordPress 4.6 and PHP 5.6
 * Can be display both in Widget area or Post/Page
 * Attractive admin panel
 * Author/User information can be use from profile (For that leave the field blank)
@@ -38,13 +39,30 @@ Add an author box to your theme sidebar/widget area, with your avatar, name, ema
 * Biographical Info Font Size Added [New]
 * Photo/Gravatar width option Added [New]
 
-**Demo:**
+
+**➡️ Demo:**
 
 [See the Demo at bottom of the content](http://plugin.hossnimubarak.com/author-box/)
 
-**Give us a Feedback/Rating**
+
+**📋 Feedback/Rating:**
 
 if you find this plugin helpful please give us your valuable review and share this plugin with others. This will help us to improve this plugin. Rate us and we are always ready to add any features you want.
+
+
+**🔥 Other Plugins from [HM Plugins](http://www.hossnimubarak.com):**
+
+👉 [Worldwide Breaking News Headlines](https://wordpress.org/plugins/worldwide-breaking-news-headlines/) Breaking News, Headlines plugin
+👉 [WP Top News](https://wordpress.org/plugins/wp-top-news/) Top News, Breaking News, Headlines Plugin
+👉 [Tiny Bar](https://wordpress.org/plugins/tiny-bar/) Display a bar at Top or Bottom
+👉 [WP Books Gallery](https://wordpress.org/plugins/wp-books-gallery/) Display Books Gallery
+👉 [WordPress Stripe Donation](https://wordpress.org/plugins/wp-stripe-donation/) A donation plugin using Stripe payment
+👉 [HM Product Catalog](https://wordpress.org/plugins/hm-product-catalog/) Display Products catalog wise with shortcoded
+👉 [HM Resume Manager](https://wordpress.org/plugins/hm-resume-manager/) A resume manager plugin
+👉 [HM Wc Product Advertiser](https://wordpress.org/plugins/hm-wc-product-advertiser/) Wocommerce Product Advertiser
+👉 [WP Scroll To Post](https://wordpress.org/plugins/wp-scroll-to-post/) Display random post(Single) at the bottom right corner
+👉 [HM Recent Posts Widget](https://wordpress.org/plugins/hm-recent-posts-widget/) Ticker Post plugin
+👉 [WP Alert Bars](https://wordpress.org/plugins/wp-alert-bars/) Notification/Alert box Plugin in Post/Page
 
 
 == Installation ==
@@ -102,6 +120,10 @@ Please go to Users -> Your Profile and fill up Biographical Info. Also fill up e
 10. Author Box Widget in Admin Widget Area
 
 == Changelog ==
+
+
+= 2.5 =
+* Photo/Gravatar width option Added
 
 = 2.4 =
 * Photo/Gravatar width option Added

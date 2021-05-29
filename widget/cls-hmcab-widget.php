@@ -67,7 +67,7 @@ class Hmcabw_Widget extends WP_Widget {
 			$hmcabwDisplayEmail = (filter_var($hmcabwTempSettings['hmcabw_display_email'], FILTER_SANITIZE_NUMBER_INT)) ? $hmcabwTempSettings['hmcabw_display_email'] : '';
 			$hmcabwDisplayWeb = (filter_var($hmcabwTempSettings['hmcabw_display_web'], FILTER_SANITIZE_NUMBER_INT)) ? $hmcabwTempSettings['hmcabw_display_web'] : '';
 			$hmcabwIconShape = (filter_var($hmcabwTempSettings['hmcabw_icon_shape'], FILTER_SANITIZE_STRING)) ? $hmcabwTempSettings['hmcabw_icon_shape'] : 'square';
-			$hmcabwPhotoWidth = (filter_var($hmcabwTempSettings['hmcabw_photo_width'], FILTER_SANITIZE_NUMBER_INT)) ? $hmcabwTempSettings['hmcabw_photo_width'] : '50';
+			$hmcabwPhotoWidth = (filter_var($hmcabwTempSettings['hmcabw_photo_width'], FILTER_SANITIZE_NUMBER_INT)) ? $hmcabwTempSettings['hmcabw_photo_width'] : '100';
 		} else{
 			$hmcabwTempSettings = array();
 			$hmcabwTemplate = "temp_1";
@@ -76,7 +76,7 @@ class Hmcabw_Widget extends WP_Widget {
 			$hmcabwDisplayEmail = "";
 			$hmcabwDisplayWeb = "";
 			$hmcabwIconShape = "square";
-			$hmcabwPhotoWidth = '50';
+			$hmcabwPhotoWidth = '100';
 		}
 		$hmcabwSocials = $this->get_social_media();
 		?>
@@ -88,7 +88,7 @@ class Hmcabw_Widget extends WP_Widget {
 					$hmcabwPhotograph2 = "";
 					if('upload_image' === $hmcabwAuthorImage){
 					//if( intval( $hmcabwPhotograph ) > 0 ) {
-						$hmcabwImage = wp_get_attachment_image_src($hmcabwPhotograph, 'full', false); ?>
+						$hmcabwImage = wp_get_attachment_image_src($hmcabwPhotograph, 'thumbnail', false); ?>
 						<img src="<?php echo esc_attr($hmcabwImage[0]); ?>" width="<?php echo esc_attr($hmcabwPhotoWidth); ?>px">
 					<?php } else{
 						//$hmcabwPhotograph2 = HMCABW_ASSETS . 'img/noimage.jpg';
@@ -98,10 +98,10 @@ class Hmcabw_Widget extends WP_Widget {
 				</div>
 				<div class="hmcabw-info-container" style="font-size:<?php echo esc_attr($hmcabwBIFontSize); ?>px">
 					<h3 class="hmcabw-name"><?php echo esc_html($hmcabwAuthorName); ?></h3>
-					<?php if($hmcabwDisplayTitle == 1) { ?>
+					<?php if( $hmcabwDisplayTitle == 1 ) { ?>
 						<p class="hmcabw-title"><?php echo esc_html($hmcabwAuthorTitle); ?></p>
 					<?php } ?>
-					<?php echo nl2br(wp_kses_post($hmcabwBiographicalInfo)); ?>
+					<?php echo nl2br( wp_kses_post( $hmcabwBiographicalInfo ) ); ?>
 				</div>
 			</div>
 			<div class="hmcabw-email-url-container">

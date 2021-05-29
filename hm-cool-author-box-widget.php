@@ -21,7 +21,7 @@ define( 'HMCABW_SLUG', plugin_basename( __FILE__ ) );
 define( 'HMCABW_PREFIX', 'hmcabw_' );
 define( 'HMCABW_CLASSPREFIX', 'cls-hmcab-' );
 define( 'HMCABW_TXT_DOMAIN', 'hm-cool-author-box-widget' );
-define( 'HMCABW_VERSION', '2.4' );
+define( 'HMCABW_VERSION', '2.5' );
 
 require_once HMCABW_PATH . 'inc/' . HMCABW_CLASSPREFIX . 'master.php';
 $hmcabw = new HMCABW_Master();
