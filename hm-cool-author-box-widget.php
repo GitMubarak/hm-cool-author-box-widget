@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name: 	HM - Cool Author Box
+ * Plugin Name: 	Cool Author Box
  * Plugin URI:		https://wordpress.org/plugins/hm-cool-author-box-widget/
  * Description: 	This plugin display an author box to your theme sidebar/widget area or Post/Page section.
  * Version: 		2.5
- * Author: 			Hossni Mubarak
- * Author URI: 		http://www.hossnimubarak.com
+ * Author: 			HM Plugin
+ * Author URI: 		https://hmplugin.com
  * Text Domain: 	wp-cool-author-box
- * License:         GPL-2.0+
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
+ * License:         GPLv2 or later
+ * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 if ( ! defined( 'WPINC' ) ) { die; }
@@ -26,5 +26,4 @@ define( 'HMCABW_VERSION', '2.5' );
 require_once HMCABW_PATH . 'inc/' . HMCABW_CLASSPREFIX . 'master.php';
 $hmcabw = new HMCABW_Master();
 $hmcabw->hmcabw_run();
-register_deactivation_hook( __FILE__, array($hmcabw, HMCABW_PREFIX . 'unregister_settings') );
 

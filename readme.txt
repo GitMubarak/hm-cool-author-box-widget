@@ -1,11 +1,11 @@
-=== HM - Cool Author Box ===
-Contributors: mhmrajib, ali_siddique
-Donate link: https://www.paypal.me/mhmrajib/2
+=== Cool Author Box ===
+Contributors: hmplugin, mhmrajib
+Donate link: https://www.paypal.me/mhmrajib
 Tags: Author, Author Box, Profile Fields, Author Profile Fields, Author Social Icons
-Requires at least: 4.6
-Tested up to: 5.4.1
+Requires at least: 5.0
+Tested up to: 5.7.2
 Stable tag: 2.5
-Requires PHP: 5.7.2
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,7 +13,7 @@ Add an author box to your theme sidebar/widget area, with your avatar, name, ema
 
 == Description ==
 
-[HM - Cool Author Box](http://www.hossnimubarak.com) display an author box to your theme sidebar/widget area or in Post/Page with Social media links. User can use their profile info or they can put other info in this plugin. 6 eyecatching templates let the user to choose according to their theme. 12 common social links help user to connect with more people.
+[Cool Author Box](http://www.hossnimubarak.com) display an author box to your theme sidebar/widget area or in Post/Page with Social media links. User can use their profile info or they can put other info in this plugin. 6 eyecatching templates let the user to choose according to their theme. 12 common social links help user to connect with more people.
 
 
 **🌟 Plugin Features:**
@@ -124,6 +124,8 @@ Please go to Users -> Your Profile and fill up Biographical Info. Also fill up e
 
 = 2.5 =
 * Photo/Gravatar width option Added
+* Branding changed
+* Uninstall.php added
 
 = 2.4 =
 * Photo/Gravatar width option Added
