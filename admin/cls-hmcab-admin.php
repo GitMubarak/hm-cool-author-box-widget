@@ -1,54 +1,63 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+include_once HMCABW_PATH . 'common/hmcab-general-settigns.php';
+include_once HMCABW_PATH . 'common/hmcab-social-settigns.php';
+include_once HMCABW_PATH . 'common/hmcab-common.php';
+
 /**
-*	Admin Panel Parent Class
+*	Admin Panel Master Class
 */
 class Hmcabw_Admin {
+
+	use Hmcab_General_Settings, Hmcab_Social_Settings, Hmcab_Common;
 	
 	private $hmcabw_version;
 	private $hmcabw_option_group;
 	private $hmcabw_assets_prefix;
 
 	public function __construct( $version ) {
+
 		$this->hmcabw_version = $version;
 		$this->hmcabw_assets_prefix = substr(HMCABW_PREFIX, 0, -1) . '-';
 	}
 	
 	/**
-	*	Loading the admin menu
+	*	Function for loading admin menu
 	*/
 	public function hmcabw_admin_menu() {
 		
-		add_menu_page(	esc_html__('HM Author Box', 'hm-cool-author-box-widget'),
-						esc_html__('HM Author Box', 'hm-cool-author-box-widget'),
+		add_menu_page(	__('HM Author Box', 'hm-cool-author-box-widget'),
+						__('HM Author Box', 'hm-cool-author-box-widget'),
 						'',
 						'hm-cool-author-box',
 						'',
-						'dashicons-admin-users',
+						'dashicons-id',
 						95
 					);
 		
 		add_submenu_page( 	'hm-cool-author-box',
-							esc_html__('Information Settings', 'hm-cool-author-box-widget'),
-							esc_html__('Information Settings', 'hm-cool-author-box-widget'),
+							__('Information Settings', 'hm-cool-author-box-widget'),
+							__('Information Settings', 'hm-cool-author-box-widget'),
 							'manage_options',
-							'hmcabw-general-settings',
-							array( $this, 'hmcabw_general_settings' )
+							'hmcab-general-settings',
+							array( $this, 'hmcab_general_settings' )
 						);
 
 		add_submenu_page( 	'hm-cool-author-box',
-							esc_html__('Social Settings', 'hm-cool-author-box-widget'),
-							esc_html__('Social Settings', 'hm-cool-author-box-widget'),
+							__('Social Settings', 'hm-cool-author-box-widget'),
+							__('Social Settings', 'hm-cool-author-box-widget'),
 							'manage_options',
-							'hmcabw-social-settings',
-							array( $this, 'hmcabw_social_settings' )
+							'hmcab-social-settings',
+							array( $this, 'hmcab_social_settings' )
 						);
 
 		add_submenu_page( 	'hm-cool-author-box',
-							esc_html__('Template Settings', 'hm-cool-author-box-widget'),
-							esc_html__('Template Settings', 'hm-cool-author-box-widget'),
+							__('Template Settings', 'hm-cool-author-box-widget'),
+							__('Template Settings', 'hm-cool-author-box-widget'),
 							'manage_options',
-							'hmcabw-template-settings',
-							array( $this, 'hmcabw_template_settings' )
+							'hmcab-template-settings',
+							array( $this, 'hmcab_template_settings' )
 						);
 	}
 	
@@ -86,54 +95,64 @@ class Hmcabw_Admin {
 	/**
 	*	Loading admin panel view/forms
 	*/
-	function hmcabw_general_settings(){
-		require_once HMCABW_PATH . 'admin/view/' . $this->hmcabw_assets_prefix . 'general-settings.php';
+	function hmcab_general_settings() {
+
+		$hmcabwShowGeneralMessage = false;
+
+		if ( isset( $_POST['updateGeneralSettings'] ) ) {
+
+			$hmcabwShowGeneralMessage = $this->set_general_settings( $_POST );
+		}
+
+		$hmcabwGeneralSettings	= $this->get_general_settings();
+
+		include_once HMCABW_PATH . 'admin/view/' . $this->hmcabw_assets_prefix . 'general-settings.php';
 	}
 
-	function hmcabw_social_settings(){
-		require_once HMCABW_PATH . 'admin/view/' . $this->hmcabw_assets_prefix . 'social-settings.php';
+	function hmcab_social_settings() {
+
+		$hmcabwShowSocialMessage 	= false;
+		$hmcabSocialNetworks		= $this->get_social_network();
+		
+		if ( isset( $_POST['updateSocialSettings'] ) ) {
+
+			$hmcabwShowSocialMessage = $this->set_social_settings( $hmcabSocialNetworks, $_POST );
+		}
+
+		$hmcabwSocialSettings = $this->get_social_settings();
+
+		include_once HMCABW_PATH . 'admin/view/' . $this->hmcabw_assets_prefix . 'social-settings.php';
 	}
 	
-	public function hmcabw_template_settings() {
-		require_once HMCABW_PATH . 'admin/view/' . $this->hmcabw_assets_prefix . 'template-settings.php';
+	function hmcab_template_settings() {
+		include_once HMCABW_PATH . 'admin/view/' . $this->hmcabw_assets_prefix . 'template-settings.php';
 	}
 
 
 	function hmcabw_get_image() {
-		if(isset($_GET['id']) ){
+
+		if ( isset( $_GET['id'] ) ) {
+
 			$image = wp_get_attachment_image( filter_input( INPUT_GET, 'id', FILTER_VALIDATE_INT ), 'thumbnail', false, array( 'id' => 'hmcabw-preview-image' ) );
 			$data = array(
-							'image' => $image,
-						);
+				'image' => $image,
+			);
+
 			wp_send_json_success( $data );
+		
 		} else {
+
 			wp_send_json_error();
 		}
 	}
-
-	protected function get_social_media(){
-		$socilaMedia = array(
-								'facebook',
-								'instagram',
-								'twitter',
-								'tumblr',
-								'linkedin',
-								'pinterest',
-								'youtube',
-								'quora',
-								'github',
-								'flickr',
-								'stackoverflow',
-								'reddit'
-							);
-		return $socilaMedia;
-	}
 	
-	function hmcabw_display_notification($type, $msg){ ?>
+	protected function hmcab_display_notification( $type, $msg ) { 
+		?>
 		<div class="hmcabw-alert <?php printf('%s', $type); ?>">
 			<span class="hmcabw-closebtn">&times;</span> 
-			<strong><?php esc_html_e(ucfirst($type), 'hm-cool-author-box-widget'); ?>!</strong> <?php esc_html_e($msg, 'hm-cool-author-box-widget'); ?>
+			<strong><?php esc_html_e( ucfirst( $type ), HMCABW_TXT_DOMAIN ); ?>!</strong> <?php esc_html_e($msg, HMCABW_TXT_DOMAIN); ?>
 		</div>
-	<?php }
+		<?php 
+	}
 }
 ?>

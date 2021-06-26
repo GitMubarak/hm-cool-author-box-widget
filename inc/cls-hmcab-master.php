@@ -28,15 +28,14 @@ class HMCABW_Master {
 		require_once HMCABW_PATH . 'widget/' . HMCABW_CLASSPREFIX . 'widget.php';
 		require_once HMCABW_PATH . 'admin/' . HMCABW_CLASSPREFIX . 'admin.php';
 		require_once HMCABW_PATH . 'front/' . HMCABW_CLASSPREFIX . 'front.php';
-		
 		require_once HMCABW_PATH . 'inc/' . HMCABW_CLASSPREFIX . 'loader.php';
 		$this->hmcabw_loader = new HMCABW_Loader();
 	}
 	
 	private function hmcabw_trigger_widget_hooks() {
 
-		new Hmcabw_Widget();
-		add_action( 'widgets_init', function(){ register_widget( 'Hmcabw_Widget' ); });
+		new Hmcab_Widget();
+		add_action( 'widgets_init', function(){ register_widget( 'Hmcab_Widget' ); });
 	}
 	
 	private function hmcabw_trigger_admin_hooks() {

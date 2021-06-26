@@ -1,8 +1,7 @@
     .hmcabw-main-wrapper-widget {
-        border: 1px solid #1E90FF;
-        box-shadow: 0 3px 20px #1E90FF;
+        border: 1px solid #DDD;
         margin: 20px 0;
-        background: #cde7f4;
+        background: transparent;
     }
     
     .hmcabw-main-wrapper-widget .hmcabw-parent-container {
@@ -54,9 +53,17 @@
         padding: 0;
         font-size: 24px;
         line-height: 30px;
-        font-family: Trebuchet MS;
         text-align: center;
         display: block;
+        color: #242424;
+    }
+    
+    .hmcab-name-border {
+        height: 4px;
+        width: 80px;
+        margin: 10px auto;
+        background-color: #999;
+        border-radius: 4px;
     }
     
     .hmcabw-main-wrapper-widget .hmcabw-parent-container .hmcabw-info-container p.hmcabw-bio-info {
@@ -114,7 +121,7 @@
         padding: 0;
         line-height: 16px;
         font-size: 12px;
-        color: #BB8E8E;
+        color: #666;
     }
     
     .hmcabw-main-wrapper-widget .hmcabw-email-url-container>div a.hmcabw-website {
@@ -125,7 +132,7 @@
         text-decoration: none;
         line-height: 16px;
         font-size: 12px;
-        color: #BB8E8E;
+        color: #666;
     }
     
     .hmcabw-main-wrapper-widget .hmcabw-email-url-container>div p.hmcabw-email>span,
@@ -144,19 +151,20 @@
         clear: both;
         display: flex;
         flex-wrap: wrap;
-        background-color: #1E90FF;
-        border: 0px solid #000;
+        background: transparent;
+        border-top: 1px solid #DDD;
         text-align: center;
     }
     
     .hmcabw-main-wrapper-widget .hmcabw-social-container>div {
-        background-color: #f1f1f1;
+        background-color: #999;
         width: 45px;
         margin: 5px;
         text-align: center;
-        line-height: 0px;
+        line-height: 24px;
         padding: 8px 0px;
         font-size: 30px;
+        height: 45px;
     }
     
     .hmcabw-main-wrapper-widget .hmcabw-social-container>div.rounded {
@@ -170,167 +178,107 @@
     temp_1
     ==========================*/
     
-    .hmcabw-main-wrapper-widget.temp_1 {
-        border: 1px solid #00BFFF;
-        box-shadow: 0 3px 20px #00BFFF;
-        background: #E0FFFF;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_1 .hmcabw-parent-container .hmcabw-info-container h3 {
-        color: #4682B4;
+    .hmcabw-main-wrapper-widget.temp_1 .hmcabw-parent-container .hmcabw-info-container .hmcab-name-border {
+        background-color: #00BFFF;
     }
     
     .hmcabw-main-wrapper-widget.temp_1 .hmcabw-email-url-container>div p.hmcabw-email,
     .hmcabw-main-wrapper-widget.temp_1 .hmcabw-email-url-container>div a.hmcabw-website,
     .hmcabw-main-wrapper-widget.temp_1 .hmcabw-email-url-container>div p.hmcabw-email>span,
     .hmcabw-main-wrapper-widget.temp_1 .hmcabw-email-url-container>div a.hmcabw-website>span {
-        color: #4682B4;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_1 div.hmcabw-social-container {
-        background: #00BFFF;
+        color: #00BFFF;
     }
     
     .hmcabw-main-wrapper-widget.temp_1 div.hmcabw-social-container>div {
-        background: #4682B4;
+        background: #00BFFF;
     }
     /*=========================
     temp_2
     ==========================*/
     
-    .hmcabw-main-wrapper-widget.temp_2 {
-        border: 1px solid #DEB887;
-        box-shadow: 0 3px 20px #DEB887;
-        background: #FFF8DC;
-    }
-    
-    .hmcabw-parent-container .hmcabw-info-container h3 {
-        color: #BC8F8F;
+    .hmcabw-main-wrapper-widget.temp_2 .hmcabw-parent-container .hmcabw-info-container .hmcab-name-border {
+        background-color: #DEB887;
     }
     
     .hmcabw-main-wrapper-widget.temp_2 .hmcabw-email-url-container>div p.hmcabw-email,
     .hmcabw-main-wrapper-widget.temp_2 .hmcabw-email-url-container>div a.hmcabw-website,
     .hmcabw-main-wrapper-widget.temp_2 .hmcabw-email-url-container>div p.hmcabw-email>span,
     .hmcabw-main-wrapper-widget.temp_2 .hmcabw-email-url-container>div a.hmcabw-website>span {
-        color: #BC8F8F;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_2 div.hmcabw-social-container {
-        background: #DEB887;
+        color: #DEB887;
     }
     
     .hmcabw-main-wrapper-widget.temp_2 div.hmcabw-social-container>div {
-        background: #BC8F8F;
+        background: #DEB887;
     }
     /*=========================
     temp_3
     ==========================*/
     
-    .hmcabw-main-wrapper-widget.temp_3 {
-        border: 1px solid #999;
-        box-shadow: 0 3px 20px #555555;
-        background: #F2F2F2;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_3 .hmcabw-parent-container .hmcabw-info-container h3 {
-        color: #242424;
+    .hmcabw-main-wrapper-widget.temp_3 .hmcabw-parent-container .hmcabw-info-container .hmcab-name-border {
+        background-color: #555555;
     }
     
     .hmcabw-main-wrapper-widget.temp_3 .hmcabw-email-url-container>div p.hmcabw-email,
     .hmcabw-main-wrapper-widget.temp_3 .hmcabw-email-url-container>div a.hmcabw-website,
     .hmcabw-main-wrapper-widget.temp_3 .hmcabw-email-url-container>div p.hmcabw-email>span,
     .hmcabw-main-wrapper-widget.temp_3 .hmcabw-email-url-container>div a.hmcabw-website>span {
-        color: #242424;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_3 div.hmcabw-social-container {
-        background: #555555;
+        color: #555555;
     }
     
     .hmcabw-main-wrapper-widget.temp_3 div.hmcabw-social-container>div {
-        background: #242424;
+        background: #555555;
     }
     /*=========================
     temp_4
     ==========================*/
     
-    .hmcabw-main-wrapper-widget.temp_4 {
-        border: 1px solid #9932CC;
-        box-shadow: 0 3px 20px #9932CC;
-        background: #FFE4E1;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_4 .hmcabw-parent-container .hmcabw-info-container h3 {
-        color: #663399;
+    .hmcabw-main-wrapper-widget.temp_4 .hmcabw-parent-container .hmcabw-info-container .hmcab-name-border {
+        background-color: #9932CC;
     }
     
     .hmcabw-main-wrapper-widget.temp_4 .hmcabw-email-url-container>div p.hmcabw-email,
     .hmcabw-main-wrapper-widget.temp_4 .hmcabw-email-url-container>div a.hmcabw-website,
     .hmcabw-main-wrapper-widget.temp_4 .hmcabw-email-url-container>div p.hmcabw-email>span,
     .hmcabw-main-wrapper-widget.temp_4 .hmcabw-email-url-container>div a.hmcabw-website>span {
-        color: #663399;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_4 div.hmcabw-social-container {
-        background: #9932CC;
+        color: #9932CC;
     }
     
     .hmcabw-main-wrapper-widget.temp_4 div.hmcabw-social-container>div {
-        background: #663399;
+        background: #9932CC;
     }
     /*=========================
     temp_5
     ==========================*/
     
-    .hmcabw-main-wrapper-widget.temp_5 {
-        border: 1px solid #B22222;
-        box-shadow: 0 3px 20px #B22222;
-        background: #FFE4E1;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_5 .hmcabw-parent-container .hmcabw-info-container h3 {
-        color: #8B0000;
+    .hmcabw-main-wrapper-widget.temp_5 .hmcabw-parent-container .hmcabw-info-container .hmcab-name-border {
+        background-color: #B22222;
     }
     
     .hmcabw-main-wrapper-widget.temp_5 .hmcabw-email-url-container>div p.hmcabw-email,
     .hmcabw-main-wrapper-widget.temp_5 .hmcabw-email-url-container>div a.hmcabw-website,
     .hmcabw-main-wrapper-widget.temp_5 .hmcabw-email-url-container>div p.hmcabw-email>span,
     .hmcabw-main-wrapper-widget.temp_5 .hmcabw-email-url-container>div a.hmcabw-website>span {
-        color: #8B0000;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_5 div.hmcabw-social-container {
-        background: #B22222;
+        color: #B22222;
     }
     
     .hmcabw-main-wrapper-widget.temp_5 div.hmcabw-social-container>div {
-        background: #8B0000;
+        background: #B22222;
     }
     /*=========================
     temp_6
     ==========================*/
     
-    .hmcabw-main-wrapper-widget.temp_6 {
-        border: 1px solid #20B2AA;
-        box-shadow: 0 3px 20px #20B2AA;
-        background: #F0FFF0;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_6 .hmcabw-parent-container .hmcabw-info-container h3 {
-        color: #008B8B;
+    .hmcabw-main-wrapper-widget.temp_6 .hmcabw-parent-container .hmcabw-info-container .hmcab-name-border {
+        background-color: #20B2AA;
     }
     
     .hmcabw-main-wrapper-widget.temp_6 .hmcabw-email-url-container>div p.hmcabw-email,
     .hmcabw-main-wrapper-widget.temp_6 .hmcabw-email-url-container>div a.hmcabw-website,
     .hmcabw-main-wrapper-widget.temp_6 .hmcabw-email-url-container>div p.hmcabw-email>span,
     .hmcabw-main-wrapper-widget.temp_6 .hmcabw-email-url-container>div a.hmcabw-website>span {
-        color: #008B8B;
-    }
-    
-    .hmcabw-main-wrapper-widget.temp_6 div.hmcabw-social-container {
-        background: #20B2AA;
+        color: #20B2AA;
     }
     
     .hmcabw-main-wrapper-widget.temp_6 div.hmcabw-social-container>div {
-        background: #008B8B;
+        background: #20B2AA;
     }

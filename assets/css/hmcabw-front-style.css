@@ -1,8 +1,7 @@
     .hmcabw-main-wrapper {
-        border: 1px solid #1E90FF;
-        box-shadow: 0 3px 20px #1E90FF;
+        border: 1px solid #DDDDDD;
         margin: 20px 0;
-        background: #cde7f4;
+        background: transparent;
         padding: 5px!important;
     }
     
@@ -56,7 +55,7 @@
         padding: 0;
         font-size: 24px;
         line-height: 30px;
-        font-family: Trebuchet MS;
+        color: #242424;
     }
     
     .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container p.hmcabw-title {
@@ -110,7 +109,7 @@
         padding: 0;
         line-height: 16px;
         font-size: 12px;
-        color: #BB8E8E;
+        color: #666;
     }
     
     .hmcabw-main-wrapper .hmcabw-email-url-container>div a.hmcabw-website {
@@ -121,7 +120,7 @@
         text-decoration: none;
         line-height: 16px;
         font-size: 12px;
-        color: #BB8E8E;
+        color: #666;
     }
     
     .hmcabw-main-wrapper .hmcabw-email-url-container>div p.hmcabw-email>span,
@@ -168,7 +167,6 @@
     
     .hmcabw-main-wrapper.temp_1 {
         border: 1px solid #00BFFF;
-        box-shadow: 0 3px 20px #00BFFF;
         background: #E0FFFF;
     }
     

@@ -6,7 +6,6 @@
  * Version: 		2.5
  * Author: 			HM Plugin
  * Author URI: 		https://hmplugin.com
- * Text Domain: 	wp-cool-author-box
  * License:         GPLv2 or later
  * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -27,3 +26,25 @@ require_once HMCABW_PATH . 'inc/' . HMCABW_CLASSPREFIX . 'master.php';
 $hmcabw = new HMCABW_Master();
 $hmcabw->hmcabw_run();
 
+// Donate link to plugin description
+function hmcab_display_donation_link_to_plugin_meta( $links, $file ) {
+
+    if ( HMCABW_SLUG === $file ) {
+        $row_meta = array(
+          'hmcab_donation'  => '<a href="' . esc_url( 'https://www.paypal.me/mhmrajib/' ) . '" target="_blank" aria-label="' . esc_attr__( 'Donate us', HMCABW_TXT_DOMAIN ) . '" style="color:green; font-weight: bold;">' . esc_html__( 'Donate us', HMCABW_TXT_DOMAIN ) . '</a>'
+        );
+ 
+        return array_merge( $links, $row_meta );
+    }
+    return (array) $links;
+}
+add_filter( 'plugin_row_meta', 'hmcab_display_donation_link_to_plugin_meta', 10, 2 );
+/*
+function custom_content_after_body_open_tag() {
+    ?>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="0ydnabQs"></script>
+    <?php
+}
+add_action('wp_body_open', 'custom_content_after_body_open_tag');
+*/
