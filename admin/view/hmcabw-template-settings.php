@@ -59,17 +59,17 @@ if(is_array(stripslashes_deep(unserialize(get_option('hmcabw_temp_settings')))))
                             </div>
                         </td>
                     </tr>
-                    <tr class="hmcabw_display_in_post_page">
+                    <tr>
                         <th scope="row">
-                                <label for="hmcabw_display_in_post_page"><?php esc_html_e('Show In Post/Page?', 'hm-cool-author-box-widget'); ?></label>
+                                <label for="hmcabw_display_in_post_page"><?php esc_html_e('Show In Single Post?', 'hm-cool-author-box-widget'); ?></label>
                         </th>
                         <td>
-                            <input type="checkbox" name="hmcabw_display_in_post_page" value="1" <?php if($hmcabw_temp_settings['hmcabw_display_in_post_page'] == "1") { echo 'checked'; } ?>>
+                            <input type="checkbox" name="hmcabw_display_in_post_page" id="hmcabw_display_in_post_page" value="1" <?php if ( $hmcabw_temp_settings['hmcabw_display_in_post_page'] ) { echo 'checked'; } ?>>
                         </td>
                     </tr>
                     <tr class="hmcabw_display_selection">
                         <th scope="row">
-                                <label for="hmcabw_display_selection"><?php esc_html_e('Where to Display?', 'hm-cool-author-box-widget'); ?></label>
+                                <label for="hmcabw_display_selection"><?php esc_html_e('Post Position', 'hm-cool-author-box-widget'); ?>:</label>
                         </th>
                         <td>
                             <input type="radio" name="hmcabw_display_selection" value="top" <?php if($hmcabw_temp_settings['hmcabw_display_selection'] == "top") { echo 'checked'; } ?>>

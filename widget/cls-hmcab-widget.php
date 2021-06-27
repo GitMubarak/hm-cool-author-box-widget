@@ -37,10 +37,8 @@ class Hmcab_Widget extends WP_Widget {
 		}
 
 		$hmcabwCurrentUser = wp_get_current_user();
-		//echo $hmcabwCurrentUser->description;
 
 		// General Settings Data
-		//$hmcabwGeneralSettings 	= stripslashes_deep( unserialize( get_option('hmcabw_general_settings') ) );
 		$hmcabwGeneralSettings	= $this->get_general_settings();
 		$hmcabwPhotograph 		= isset( $hmcabwGeneralSettings['hmcabw_photograph'] ) ? $hmcabwGeneralSettings['hmcabw_photograph'] : '';
 		$hmcabwAuthorName  		= isset( $hmcabwGeneralSettings['hmcabw_author_name'] ) ? $hmcabwGeneralSettings['hmcabw_author_name'] :  $hmcabwCurrentUser->display_name;

@@ -3,11 +3,11 @@
  * Plugin Name: 	Cool Author Box
  * Plugin URI:		https://wordpress.org/plugins/hm-cool-author-box-widget/
  * Description: 	This plugin display an author box to your theme sidebar/widget area or Post/Page section.
- * Version: 		2.5
- * Author: 			HM Plugin
+ * Version: 		  2.5
+ * Author: 			  HM Plugin
  * Author URI: 		https://hmplugin.com
- * License:         GPLv2 or later
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
+ * License:       GPLv2 or later
+ * License URI:   http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 if ( ! defined( 'WPINC' ) ) { die; }
@@ -39,12 +39,3 @@ function hmcab_display_donation_link_to_plugin_meta( $links, $file ) {
     return (array) $links;
 }
 add_filter( 'plugin_row_meta', 'hmcab_display_donation_link_to_plugin_meta', 10, 2 );
-/*
-function custom_content_after_body_open_tag() {
-    ?>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v11.0" nonce="0ydnabQs"></script>
-    <?php
-}
-add_action('wp_body_open', 'custom_content_after_body_open_tag');
-*/

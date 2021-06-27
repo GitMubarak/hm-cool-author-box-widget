@@ -9,11 +9,11 @@ Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add an author box to your theme sidebar/widget area, with your avatar, name, email, url and description with 5 social media links.
+Add an author box to your theme sidebar/widget area or in a single post, with your avatar, name, email, url and description with 12 social media links.
 
 == Description ==
 
-[Cool Author Box](https://hmplugin.com) display an author box to your theme sidebar/widget area or in Post/Page with Social media links. User can use their profile info or they can put other info in this plugin. 6 eyecatching templates let the user to choose according to their theme. 12 common social links help user to connect with more people.
+[Cool Author Box](https://hmplugin.com) display an author box to your theme sidebar/widget area or in a single post with social media links. User can use their profile info or they can put other info in this plugin. 6 eyecatching templates let the user to choose according to their theme. 12 common social links help user to connect with more people.
 
 
 **🌟 Plugin Features:**
@@ -126,7 +126,6 @@ Please go to Users -> Your Profile and fill up Biographical Info. Also fill up e
 == Changelog ==
 
 = 2.5 =
-* Photo/Gravatar width option Added
 * Branding changed
 * Uninstall.php added
 * Donation link added to plugin meta
