@@ -126,11 +126,13 @@ Please go to Users -> Your Profile and fill up Biographical Info. Also fill up e
 == Changelog ==
 
 = 2.5 =
+* Template styling changed
 * Branding changed
 * Uninstall.php added
 * Donation link added to plugin meta
 * Code optimized
 * Form submit notification enabled in admin
+* CSS fixed
 
 = 2.4 =
 * Photo/Gravatar width option Added

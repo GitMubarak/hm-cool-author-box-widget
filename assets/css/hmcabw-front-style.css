@@ -295,4 +295,7 @@
         .hmcabw-main-wrapper .hmcabw-parent-container .hmcabw-info-container {
             text-align: center;
         }
+        .hmcab-name-border-main {
+            margin: 10px auto;
+        }
     }
